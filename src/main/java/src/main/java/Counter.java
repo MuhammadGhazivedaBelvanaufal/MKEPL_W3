@@ -1,14 +1,14 @@
 package src.main.java;
 
 public class Counter {
-
+// Muhammad Ghaziveda Belvanaufal_1302220011
 	private int count;
 	
 	public Counter() {
 		this.reset();
 	}
 		
-	public void reset() {
+	public final void reset() {
 		count = 0;
 	}
 	
